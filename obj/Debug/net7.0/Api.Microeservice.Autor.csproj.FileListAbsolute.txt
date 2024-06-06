@@ -98,3 +98,5 @@ C:\Users\radea\OneDrive\Escritorio\Api.Microeservice.Autor\Api.Microeservice.Aut
 C:\Users\radea\OneDrive\Escritorio\Api.Microeservice.Autor\Api.Microeservice.Autor\Api.Microeservice.Autor\obj\Debug\net7.0\Api.Microeservice.Autor.pdb
 C:\Users\radea\OneDrive\Escritorio\Api.Microeservice.Autor\Api.Microeservice.Autor\Api.Microeservice.Autor\obj\Debug\net7.0\Api.Microeservice.Autor.genruntimeconfig.cache
 C:\Users\radea\OneDrive\Escritorio\Api.Microeservice.Autor\Api.Microeservice.Autor\Api.Microeservice.Autor\obj\Debug\net7.0\ref\Api.Microeservice.Autor.dll
+C:\Users\radea\OneDrive\Escritorio\Api.Microeservice.Autor\Api.Microeservice.Autor\Api.Microeservice.Autor\bin\Debug\net7.0\System.Web.Cors.dll
+C:\Users\radea\OneDrive\Escritorio\Api.Microeservice.Autor\Api.Microeservice.Autor\Api.Microeservice.Autor\obj\Debug\net7.0\Api.Microeservice.Autor.sourcelink.json
