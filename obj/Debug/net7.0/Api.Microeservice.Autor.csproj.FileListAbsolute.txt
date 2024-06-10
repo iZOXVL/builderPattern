@@ -100,3 +100,10 @@ C:\Users\radea\OneDrive\Escritorio\Api.Microeservice.Autor\Api.Microeservice.Aut
 C:\Users\radea\OneDrive\Escritorio\Api.Microeservice.Autor\Api.Microeservice.Autor\Api.Microeservice.Autor\obj\Debug\net7.0\ref\Api.Microeservice.Autor.dll
 C:\Users\radea\OneDrive\Escritorio\Api.Microeservice.Autor\Api.Microeservice.Autor\Api.Microeservice.Autor\bin\Debug\net7.0\System.Web.Cors.dll
 C:\Users\radea\OneDrive\Escritorio\Api.Microeservice.Autor\Api.Microeservice.Autor\Api.Microeservice.Autor\obj\Debug\net7.0\Api.Microeservice.Autor.sourcelink.json
+C:\Users\radea\OneDrive\Escritorio\Api.Microeservice.Autor\Api.Microeservice.Autor\Api.Microeservice.Autor\bin\Debug\net7.0\Google.Protobuf.dll
+C:\Users\radea\OneDrive\Escritorio\Api.Microeservice.Autor\Api.Microeservice.Autor\Api.Microeservice.Autor\bin\Debug\net7.0\Grpc.AspNetCore.Server.dll
+C:\Users\radea\OneDrive\Escritorio\Api.Microeservice.Autor\Api.Microeservice.Autor\Api.Microeservice.Autor\bin\Debug\net7.0\Grpc.AspNetCore.Server.ClientFactory.dll
+C:\Users\radea\OneDrive\Escritorio\Api.Microeservice.Autor\Api.Microeservice.Autor\Api.Microeservice.Autor\bin\Debug\net7.0\Grpc.Core.Api.dll
+C:\Users\radea\OneDrive\Escritorio\Api.Microeservice.Autor\Api.Microeservice.Autor\Api.Microeservice.Autor\bin\Debug\net7.0\Grpc.Net.Client.dll
+C:\Users\radea\OneDrive\Escritorio\Api.Microeservice.Autor\Api.Microeservice.Autor\Api.Microeservice.Autor\bin\Debug\net7.0\Grpc.Net.ClientFactory.dll
+C:\Users\radea\OneDrive\Escritorio\Api.Microeservice.Autor\Api.Microeservice.Autor\Api.Microeservice.Autor\bin\Debug\net7.0\Grpc.Net.Common.dll

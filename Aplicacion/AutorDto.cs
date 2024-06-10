@@ -1,4 +1,4 @@
-﻿using Api.Microeservice.Autor.Aplicacion;
+﻿using System;
 
 namespace Api.Microeservice.Autor.Aplicacion
 {
@@ -12,6 +12,7 @@ namespace Api.Microeservice.Autor.Aplicacion
         public string Apellido { get; set; }
         public DateTime? FechaNacimiento { get; set; }
         public string AutorLibroGuid { get; set; }
+        public string ImagenBase64 { get; set; } // Nueva propiedad para la imagen
 
         // Implementación del patrón Builder
         public class Builder
@@ -50,6 +51,12 @@ namespace Api.Microeservice.Autor.Aplicacion
             public Builder SetAutorLibroGuid(string autorLibroGuid)
             {
                 _autorDto.AutorLibroGuid = autorLibroGuid;
+                return this;
+            }
+
+            public Builder SetImagenBase64(string imagenBase64)
+            {
+                _autorDto.ImagenBase64 = imagenBase64;
                 return this;
             }
 

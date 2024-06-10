@@ -2,6 +2,8 @@
 using Api.Microservice.Autor.Aplicacion;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
+using System.Collections.Generic;
+using System.Threading.Tasks;
 
 namespace Api.Microeservice.Autor.Controllers
 {
@@ -10,19 +12,32 @@ namespace Api.Microeservice.Autor.Controllers
     public class AutorController : ControllerBase
     {
         private readonly IMediator _mediator;
+
         public AutorController(IMediator mediator)
         {
             _mediator = mediator;
         }
+
         [HttpPost]
         public async Task<ActionResult<Unit>> Crear(Nuevo.Ejecuta data)
         {
-            return await _mediator.Send(data);
+            var result = await _mediator.Send(data);
+
+            if (result == Unit.Value)
+            {
+                return Ok();
+            }
+            else
+            {
+                return BadRequest("Error al guardar el autor");
+            }
         }
+
         [HttpGet]
         public async Task<ActionResult<List<AutorDto>>> GetAutores()
         {
-            return await _mediator.Send(new Consulta.ListaAutor());
+            var autores = await _mediator.Send(new Consulta.ListaAutor());
+            return Ok(autores);
         }
 
         [HttpGet("{id}")]

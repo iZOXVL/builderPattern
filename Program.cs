@@ -29,10 +29,10 @@ builder.Services.AddMediatR(typeof(Nuevo.Manejador).Assembly);
 builder.Services.AddAutoMapper(typeof(Consulta.Manejador));
 builder.Services.AddScoped<IBuilder, AutorBuilder>();
 
-
+// Configurar CORS
 builder.Services.AddCors(options =>
 {
-    options.AddDefaultPolicy(builder =>
+    options.AddPolicy("AllowAllOrigins", builder =>
     {
         builder.AllowAnyOrigin()
                .AllowAnyMethod()
@@ -49,7 +49,10 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+
+// Aplicar CORS antes de la autorización
+app.UseCors("AllowAllOrigins");
+
 app.UseAuthorization();
-app.UseCors(); // Agregar UseCors antes de MapControllers
 app.MapControllers();
 app.Run();
