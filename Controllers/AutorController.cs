@@ -32,7 +32,7 @@ namespace Api.Microeservice.Autor.Controllers
                 return BadRequest("Error al guardar el autor");
             }
         }
-
+        //get
         [HttpGet]
         public async Task<ActionResult<List<AutorDto>>> GetAutores()
         {
